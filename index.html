@@ -1,41 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>My Webpage</title>
-	<style type="text/css">
-	.navbar {
-    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 15px;
-    font-weight: bold;
-    color: #000000;
-    background-color: #1E6001;
-    text-align: center;
-    vertical-align: middle;
-    word-spacing: normal;
-    white-space: nowrap;
-    display: block;
-    border-width: 2px;
-    border-style: dotted;
-    list-style-type: none;
-}
-    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Webpage</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<nav class="navbar">
-		
-	<ul>
-	  <li><a href="#">Home</a></li>
-		<li><a href="#">About Us</a></li>
-		<ul>
-			<li><a href="#">Our Vision</a></li>
-			<li><a href="#">Our Mission</a></li>
-		</ul>
-	  <li><a href="#">Gallery</a></li>
-		<li><a href="#">Products</a></li>
-		<li><a href="#">Contact Us</a></li>
-	</ul>	
-	</nav>
-
+    <ul class="main-navigation">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Front End Design</a>
+          <ul>
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">CSS</a>
+              <ul>
+                <li><a href="#">Resets</a></li>
+                <li><a href="#">Grids</a></li>
+                <li><a href="#">Frameworks</a></li>
+              </ul>
+            </li>
+            <li><a href="#">JavaScript</a>
+              <ul>
+                <li><a href="#">Ajax</a></li>
+                <li><a href="#">jQuery</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="#">WordPress Development</a>
+          <ul>
+            <li><a href="#">Themes</a></li>
+            <li><a href="#">Plugins</a></li>
+            <li><a href="#">Custom Post Types</a>
+              <ul>
+                <li><a href="#">Portfolios</a></li>
+                <li><a href="#">Testimonials1</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Options</a></li>
+          </ul>
+        </li>
+        <li><a href="#">About Us</a></li>
+      </ul>
 </body>
 </html>
